@@ -108,8 +108,9 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
-h3{
+.container-final h3{
     background-image: url("../img/stars.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -120,4 +121,50 @@ h3{
     background-color: var(--color-nav);
     color: var(--color-primary-color);
     font-size: 23px;
+}
+
+/* footer */
+footer{
+    background-color: var(--color-secondary-color);
+    color: var(--color-primary-color);
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+.f-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+.f-column{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+.image-container img{
+    width: 25px;
+    margin: 0 auto;
+}
+.text-blue{
+    color: var(--color-nav);
+}
+.f-column li{
+    padding-bottom: 20px;
+}
+#big-text{
+    font-size: 35px;
+}
+.footer-bottom{
+    border-top: 1px solid var(--color-nav);
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.b-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
