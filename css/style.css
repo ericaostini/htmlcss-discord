@@ -12,3 +12,30 @@
 	--color-section-color: #f6f6f6;
 	--color-footer-color: #7288da;
 }
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+/* header */
+header{
+    background-color: var(--color-nav);
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+a, a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.button{
+    background-color: var(--color-primary-color);
+    border-radius: 15px;
+    color: var(--color-secondary-color);
+    padding: 10px;
+}
