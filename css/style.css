@@ -15,6 +15,7 @@
 }
 .container{
     max-width: 1200px;
+    min-width: 400px;
     width: 80%;
     margin: 0 auto;
 }
@@ -22,11 +23,11 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
 .nav-flex{
+    justify-content: space-between;
     align-items: center;
-    flex-flow: row wrap;
 }
 .button{
     border-radius: 20px;
@@ -35,6 +36,7 @@
 }
 a.button:hover{
     text-decoration: none;
+    animation: none;
 }
 .small-button{
     font-size: 15px;
@@ -44,7 +46,7 @@ a.button:hover{
 }
 .title{
     font-size: 55px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .small-text{
     line-height: 1.8em;
@@ -68,7 +70,7 @@ nav{
     background-color: var(--color-nav);
     padding: 25px;
 }
-ul{
+nav ul{
     list-style: none;
     display: flex;
 }
@@ -102,30 +104,37 @@ a, a:hover{
 
 /* main */
 .padding{
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 100px;
 }
 .bg-grey{
     background-color: var(--color-section-color);
 }
-#first-section{
-    padding-top: 60px;
-}
 .flex-section{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-content: flex-start;
 }
 .reverse{
     flex-direction: row-reverse;
 }
+.section-img{
+    width: 60%;
+}
+.section-img img{
+    width: 100%;
+    min-width: 100%;
+}
+.section-text{
+    width: 40%;
+}
 .four-section .text, h3{
     text-align: center;
-    padding: 30px;
     padding-left: 60px;
     padding-right: 60px;
 }
+
 .four-section img{
     width: 100%;
     margin: 0 auto;
@@ -160,8 +169,10 @@ footer{
     padding-top: 50px; 
     font-size: 15px;
 }
-.footer-top{
-    padding-bottom: 20px;
+footer ul{
+    list-style: none;
+    line-height: 2.5em;
+    padding-bottom: 15px;
 }
 .column{ 
     flex-wrap: wrap;
@@ -174,9 +185,6 @@ footer{
 }
 .text-violet{
     color: var(--color-footer-color);
-}
-.flex-column li{
-    padding-bottom: 20px;
 }
 #big-text{
     font-size: 30px;
