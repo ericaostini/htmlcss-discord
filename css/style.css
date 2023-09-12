@@ -95,14 +95,14 @@ a, a:hover{
 .bg-grey{
     background-color: var(--color-section-color);
 }
+#first-section{
+    padding-top: 60px;
+}
 .flex-section{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-content: flex-start;
-}
-.text{ 
-    padding-top: 50px;
 }
 .reverse{
     flex-direction: row-reverse;
@@ -132,8 +132,8 @@ a, a:hover{
     background-image: url("../img/stars.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 40px;
-    font-size: 32px;
+    padding: 30px;
+    font-size: 30px;
 }
 .b-blue{
     background-color: var(--color-footer-color);
