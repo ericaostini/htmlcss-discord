@@ -264,6 +264,29 @@ main img{
     border: 1px solid var(--color-secondary-color);
 }
 
+/* main download page */
+.box h2{
+    padding: 20px;
+}
+.m-flex-column{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.m-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    background-color: var(--color-section-color);
+    padding:30px;
+    margin: 10px;
+    text-align: center;
+}
+.ios p{
+    padding-bottom: 30px;
+}
 /* footer download */
 .h-flex{
     display: flex;
