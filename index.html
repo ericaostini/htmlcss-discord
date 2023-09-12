@@ -14,7 +14,7 @@
         <!-- barra di navigazione -->
         <nav class="d-flex nav-flex container">
             <img src="img/logo.svg" alt="Logo Discord">
-            <ul>
+            <ul class="underline">
                 <li>
                     <a href="pages/download.html">Scarica</a>
                 </li>
@@ -32,7 +32,7 @@
                 </li>
             </ul>
             <div class="but">
-                <a href="" class="button b-white small-button">Accedi</a>
+                <a href="" class="button b-white small-button color-violet">Accedi</a>
             </div>
         </nav>
         <!-- introduzione -->
@@ -42,8 +42,8 @@
                 <p class="small-text">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un gruppo di amici che vuole passare il tempo assieme, 
                 Discord rende più facile chiaccherare ogni giorno e ritrovarsi più spesso.</p>
                 <div class="b-set but">
-                    <a href="#" class="button b-white big-button"><i class="fa-solid fa-arrow-down-long"></i>Scarica per Mac</a>
-                    <a href="#" class="button b-black big-button" id="color-white">Apri Discord nel tuo browser</a>
+                    <a href="#" class="button b-white big-button color-violet"><i class="fa-solid fa-arrow-down-long"></i>Scarica per Mac</a>
+                    <a href="#" class="button b-black big-button" id="color-grey">Apri Discord nel tuo browser</a>
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@
                 <div class="container-final flex-column">
                     <h3>Pronto a iniziare la tua avventura?</h3>
                     <div class="but">
-                        <a href="" class="button b-violet big-button color-violet"><i class="fa-solid fa-arrow-down-long"></i>Scarica per Mac</a>
+                        <a href="" class="button b-violet big-button bg-violet"><i class="fa-solid fa-arrow-down-long"></i>Scarica per Mac</a>
                     </div>
                 </div>
             </div>
@@ -111,15 +111,36 @@
     <!-- collegamenti finali -->
     <footer>
         <div class="d-flex container">
-            <ul>
-                <li class="text-violet" id="big-text">
-                    Il tuo posto per parlare
+            <ul class="container-footer">
+                <li>
+                    <div class="big-text">
+                        Il tuo posto per parlare
+                    </div>
                 </li>
                 <li>
-                    <div class="image-container">
-                        <img src="img/ita.png" alt="">
-                        <span>Italiano<i class="fa-solid fa-chevron-down"></i></span>
-                    </div>
+                    <img src="img/ita.png" alt="italy flag" class="image-container">
+                    <select name="languages" id="languages">
+                        <option value="1">
+                            <div class="italiano">
+                                <span id="italiano">Italiano<i class="fa-solid fa-chevron-down"></i></span>
+                            </div>
+                        </option>
+                        <option value="2e">
+                            <div class="inglese">
+                                <span id="inglese">English<i class="fa-solid fa-chevron-down"></i></span>
+                            </div>
+                        </option>
+                        <option value="3">
+                            <div class="francese">
+                                <span id="francese">Français<i class="fa-solid fa-chevron-down"></i></span>
+                            </div>
+                        </option>
+                        <option value="4">
+                            <div class="spagnolo">
+                                <span id="spagnolo">Español<i class="fa-solid fa-chevron-down"></i></span>
+                            </div>
+                        </option>
+                    </select>
                 </li>
                 <li>
                     <i class="fa-brands fa-twitter"></i>
@@ -130,44 +151,45 @@
             </ul>
             <ul>
                 <li class="text-violet">Prodotto</li>
-                <li>Scarica</li>
-                <li>Perchè Discord</li>
-                <li>Nitro</li>
-                <li>Sicurezza</li>
-                <li>Assistenza</li>
+                <li class="underline"><a href="#">Scarica</a></li>
+                <li class="underline"><a href="#">Perchè Discord</a></li>
+                <li class="underline"><a href="#">Nitro</a></li>
+                <li class="underline"><a href="#">Sicurezza</a></li>
+                <li class="underline"><a href="#">Assistenza</a></li>
             </ul>
             <ul>
                 <li class="text-violet">Compagnia</li>
-                <li>Chi siamo</li>
-                <li>Lavora con noi</li>
-                <li>Marchio</li>
-                <li>Redazione</li>
-                <li>Negozio</li>
+                <li class="underline"><a href="#">Chi siamo</a></li>
+                <li class="underline"><a href="#">Lavora con noi</a></li>
+                <li class="underline"><a href="#">Marchio></a></li>
+                <li class="underline"><a href="#">Redazione</a></li>
+                <li class="underline"><a href="#">Negozio</a></li>
             </ul>
             <ul>
                 <li class="text-violet">Risorse</li>
-                <li>Scarica</li>
-                <li>Perchè Discord</li>
-                <li>Nitro</li>
-                <li>Sicurezza</li>
-                <li>Assistenza</li>
-                <li>Scarica</li>
-                <li>Perchè Discord</li>
-                <li>Nitro</li>
-                <li>Sicurezza</li>
+                <li class="underline"><a href="#">Scarica</a></li>
+                <li class="underline"><a href="#">Perchè Discord</a></li>
+                <li class="underline"><a href="#">Nitro</a></li>
+                <li class="underline"><a href="#">Sicurezza</a></li>
+                <li class="underline"><a href="#">Assistenza</a></li>
+                <li class="underline"><a href="#">Scarica</a></li>
+                <li class="underline"><a href="#">Perchè Discord</a></li>
+                <li class="underline"><a href="#">Nitro</a></li>
+                <li class="underline"><a href="#">Sicurezza</a></li>
+                <li class="underline"><a href="#">Assistenza</a></li>
             </ul>
             <ul>
                 <li class="text-violet">Norme</li>
-                <li>Scarica</li>
-                <li>Perchè Discord</li>
-                <li>Nitro</li>
-                <li>Sicurezza</li>
-                <li>Assistenza</li>
+                <li class="underline"><a href="#">Scarica</a></li>
+                <li class="underline"><a href="#">Perchè Discord</a></li>
+                <li class="underline"><a href="#">Nitro</a></li>
+                <li class="underline"><a href="#">Sicurezza</a></li>
+                <li class="underline"><a href="#">Assistenza</a></li>
             </ul>
         </div>
         <div class="footer-bottom container b-flex">
             <img src="img/logo.svg" alt="Logo Discord">
-            <a href="#" class="button b-blue color-violet">Registrati</a>
+            <a href="#" class="button b-violet bg-violet">Registrati</a>
         </div>
     </footer>
 </body>
