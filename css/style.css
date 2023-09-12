@@ -24,10 +24,17 @@
     align-items: flex-start;
     flex-flow: row nowrap;
 }
+.nav-flex{
+    align-items: center;
+    flex-flow: row wrap;
+}
 .button{
-    border-radius: 25px;
-    padding: 12px;
+    border-radius: 20px;
+    padding: 10px 20px;
     margin-right: 10px;
+}
+a.button:hover{
+    text-decoration: none;
 }
 .small-button{
     font-size: 15px;
@@ -37,8 +44,10 @@
 }
 .title{
     font-size: 55px;
+    padding-top: 50px;
 }
-.small-title{
+.small-text{
+    line-height: 1.8em;
     font-size: 20px;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -52,6 +61,9 @@ header{
     min-height: 400px;
     background-size: cover;
 }
+h1{
+    font-size: 3em;
+}
 nav{
     background-color: var(--color-nav);
     padding: 25px;
@@ -60,10 +72,11 @@ ul{
     list-style: none;
     display: flex;
 }
+a{
+    color: var(--color-primary-color);
+}
 a, a:hover{
     text-decoration: none;
-    animation: none;
-    color: white;
     padding: 15px;
 }
 .intro{
@@ -89,8 +102,8 @@ a, a:hover{
 
 /* main */
 .padding{
+    padding-top: 50px;
     padding-bottom: 100px;
-    padding-top: 80px;
 }
 .bg-grey{
     background-color: var(--color-section-color);
