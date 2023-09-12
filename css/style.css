@@ -21,8 +21,8 @@
 .d-flex{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
+    align-items: flex-start;
+    flex-flow: row nowrap;
 }
 .button{
     border-radius: 25px;
@@ -54,7 +54,7 @@ header{
 }
 nav{
     background-color: var(--color-nav);
-    padding: 10px;
+    padding: 25px;
 }
 ul{
     list-style: none;
@@ -124,7 +124,7 @@ a, a:hover{
 }
 .flex-column{
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -144,39 +144,32 @@ a, a:hover{
 footer{
     background-color: var(--color-secondary-color);
     color: var(--color-primary-color);
-    padding-top: 50px;
-    font-size: 18px;
+    padding-top: 50px; 
+    font-size: 15px;
 }
-
-.f-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-flow: row wrap;
+.footer-top{
+    padding-bottom: 20px;
 }
-
-.f-column{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
+.column{ 
+    flex-wrap: wrap;
     align-items: flex-start;
-    flex-grow: 1;
+    justify-content: stretch;
 }
 .image-container img{
     width: 25px;
     margin: 0 auto;
 }
-.text-blue{
-    color: var(--color-nav);
+.text-violet{
+    color: var(--color-footer-color);
 }
-.f-column li{
+.flex-column li{
     padding-bottom: 20px;
 }
 #big-text{
-    font-size: 35px;
+    font-size: 30px;
 }
 .footer-bottom{
-    border-top: 1px solid var(--color-nav);
+    border-top: 1px solid var(--color-footer-color);
     padding-top: 20px;
     padding-bottom: 40px;
 }
