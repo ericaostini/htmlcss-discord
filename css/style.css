@@ -129,6 +129,9 @@ a, a:hover{
 .download nav{
     padding: 25px;
 }
+.computer img{
+    width: 60%;
+}
 /* main */
 .padding{
     padding-top: 80px;
