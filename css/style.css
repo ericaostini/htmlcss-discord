@@ -11,7 +11,7 @@
 	--color-primary-color: #ffffff;
 	--color-secondary-color: #23272a;
 	--color-section-color: #f6f6f6;
-	--color-footer-color: #7288da;
+	--color-footer-color: #5765F2;
 }
 .container{
     max-width: 1200px;
@@ -36,7 +36,15 @@
 }
 .but a:hover{
     color: var(--color-footer-color);
-    box-shadow: 0px 11px 18px 0px rgba(0, 0, 0, 0.254);
+    box-shadow: 0px 2px 30px -9px #303338;
+}
+#color-white:hover{
+    color: var(--color-primary-color);
+    background-color: #303338;
+}
+.color-violet:hover{
+    background-color: #7983F5;
+    color: var(--color-primary-color);
 }
 .small-button{
     font-size: 15px;
@@ -170,7 +178,7 @@ main img{
     padding: 30px;
     font-size: 30px;
 }
-.b-blue{
+.b-violet{
     background-color: var(--color-footer-color);
     color: var(--color-primary-color);
 }
