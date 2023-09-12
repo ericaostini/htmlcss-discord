@@ -125,12 +125,20 @@ a, a:hover{
 /* header dowloand page */
 .download header{
     background-color: #23272A;
+    color: var(--color-primary-color);
 }
 .download nav{
     padding: 25px;
 }
+.computer{
+    width: 80%;
+}
 .computer img{
-    width: 60%;
+    width: 700px;
+    padding-top: 20px;
+}
+.padding-left{
+    padding-left: 12%;
 }
 /* main */
 .padding{
@@ -248,3 +256,8 @@ main img{
 }
 
 /* footer download */
+.h-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
