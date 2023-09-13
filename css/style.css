@@ -279,13 +279,18 @@ main img{
     align-items: center;
 }
 .box{
+    width: 50%;
     background-color: var(--color-section-color);
-    padding:30px;
     margin: 10px;
     text-align: center;
+    border-radius: 25px;
 }
 .ios p{
     padding-bottom: 30px;
+}
+.iphone img{
+    padding-top:40px;
+    width: 100%;
 }
 /* footer download */
 .h-flex{
