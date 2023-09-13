@@ -267,6 +267,7 @@ main img{
 /* main download page */
 .box h2{
     padding: 20px;
+    text-align: center;
 }
 .m-flex-column{
     display: flex;
@@ -279,11 +280,10 @@ main img{
     align-items: center;
 }
 .box{
-    width: 50%;
     background-color: var(--color-section-color);
     margin: 10px;
+    padding: 30px;
     text-align: center;
-    border-radius: 25px;
 }
 .ios p{
     padding-bottom: 30px;
@@ -291,6 +291,9 @@ main img{
 .sistem img{
     padding-top:40px;
     width: 98%;
+}
+.b-radius{
+    border-radius: 25px;
 }
 /* footer download */
 .h-flex{
